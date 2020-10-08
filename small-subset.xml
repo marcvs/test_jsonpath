@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:algsupport="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:disco="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns:elab="http://eduserv.org.uk/labels" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706" xmlns:hoksso="urn:oasis:names:tc:SAML:2.0:profiles:holder-of-key:SSO:browser" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns3="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns5="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:ns6="urn:oasis:names:tc:SAML:metadata:ui" xmlns:privacy="http://docs.oasis-open.org/wsfed/privacy/200706" xmlns:pyff="http://pyff.io/NS" xmlns:refeds="http://refeds.org/metadata" xmlns:remd="http://refeds.org/metadata" xmlns:req="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:saml1md="urn:mace:shibboleth:metadata:1.0" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:taat="http://www.eenet.ee/EENet/urn" xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label" xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DFN-AAI-eduGAIN_20201007140024" Name="https://www.aai.dfn.de/DFN-AAI-eduGAIN" validUntil="2020-10-12T13:34:19Z">
+  <ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#DFN-AAI-eduGAIN_20201007140024">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>/rrqup3EVY3uS6h16yPAPasHIhqYi+jnNj8jCkta85w=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>
+sHcPhZMhzBXHdkdGsC4XNN4AiHFAQ6m31pfWDtqrbfvSEb10aOwydDspNRDnzfERmeTXRUuJH03Z
+D59b5yOQCDaLsLja9rU2uWfAHq3uVg4muBXloMYyDAmjR7DAxtB+yb2prY00E3uRQrxeu9uEIWGe
+AAssFiKzI/Mw8d/oCOHlcbPr+iFyh0qvMAqfvI0uZYjsgbogsPs8N5xkSok9DkeLBJqdirP5cLJW
+08GoiLmutOVHi3PoggA0nND9fGjM0U3bDYu2gClIJ634C6pXATX2PF4+glmAH3pxtleVljXnRgoI
+lA3GJwmotfDnpJov7z1qIUrZ136i/jjmUW/mCykqpbsoMXEJwUYVioQx8JZ5cXFXb3uigb1/USez
+urnnWs89xbSbVUWBEnWmBI3BF2211syNsgH//8KMtY6R/Lg9pS9Vs9Mfo5R5CUgj1Ftf4DcDvHNg
+iiBQe0gQuZLox2W08krbua3uCFDWmnLpfEvQ552rphf0utbrIsVK88iHEs8NSqirLd3tFPei7IdN
+HBjUF2RSJ2DLrFCn/91ep2pp6eL7pJ2Ik7MFdM83rkarb3ai0WMPC1OSBjrpR27L8xellFYeEIHE
+eukP1Z6+PYAEw7tZcuBoVJCxrAbpmjEjtP/38wtIKEamftW0K0UcEnj+aOCIpLkV1K1qsJ55WNs=
+</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:KeyValue>
+        <ds:RSAKeyValue>
+          <ds:Modulus>
+wanvdnlpw2bGAZkO0n6wV8oVaX2YcO5rBi1gtu950X1wgukvGTSHXkLTciT1M2a/l8Kc//9yNRPW
+fjjDjgoPrKgnDHz9VHux9aWgvBF3I4lPYYmDN6AtoGjU2DD/ZBEgm8jHDGYoMRaLyUEgsR98Qirn
+Jih0nferEEjk9vtK9ZpMjBTeoqnr7OLGHcGP6QK6Iu4z1RBfdW1H3S2CHQNstXiL6xTpBZ4jP+SK
+vweNmgn4NF2MiNfbvbnCPCk9SQ1xCGxFFLYiR/MLvO+FduGhe00X87tKzASJAto3SnOv48q42Hew
+Fa02v2YrdnkdIlmmiY+EJ2pW776cLETdG/O0MvX24hma7EraQWYnQdFKekkYPwM6hfikBz/XHGyB
+az7UgkLFb1xbCGyy+1dPMwkJLRNYECRWUQcG27AfgCHMXQYxUwyt2gUKXWahSr1BTVZ2/URKyr5V
+GZyANx6nmwGewbur0mvx3w3Pc1Awvv8HjFHRUwfBmuEiUB9IjzQHZWF6SVfqYVgYlVA+caDqZEyx
+v1bJL4Iy/7L8k/b5l1vXVN2NXBm+vtpVRtGp2avvkHJ+lYw3mJFo1qFEKAKULlwjKsrkfzN2Csxf
+v528Mm9fnyqUnkphaoWiYloYo3orEO1dga6+/OZl7XH6GcmAZBF49bZlC6ouPkKX66JQFdPiVX8=
+</ds:Modulus>
+          <ds:Exponent>AQAB</ds:Exponent>
+        </ds:RSAKeyValue>
+      </ds:KeyValue>
+      <ds:X509Data>
+        <ds:X509Certificate>
+MIIG8DCCBdigAwIBAgIMImTVJZamuZ7Kg7McMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJE
+RTFFMEMGA1UECgw8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVzIERldXRzY2hlbiBGb3JzY2h1
+bmdzbmV0emVzIGUuIFYuMRAwDgYDVQQLDAdERk4tUEtJMSUwIwYDVQQDDBxERk4tVmVyZWluIEds
+b2JhbCBJc3N1aW5nIENBMB4XDTIwMDIxMzE0MDUxMVoXDTIzMDIxMjE0MDUxMVowgbcxCzAJBgNV
+BAYTAkRFMQ8wDQYDVQQIDAZCZXJsaW4xDzANBgNVBAcMBkJlcmxpbjFFMEMGA1UECgw8VmVyZWlu
+IHp1ciBGb2VyZGVydW5nIGVpbmVzIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVzIGUuIFYuMRkw
+FwYDVQQLDBBHZXNjaGFlZnRzc3RlbGxlMSQwIgYDVQQDDBtHUlA6IERGTi1BQUkgTWV0YWRhdGFz
+aWduZXIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDBqe92eWnDZsYBmQ7SfrBXyhVp
+fZhw7msGLWC273nRfXCC6S8ZNIdeQtNyJPUzZr+Xwpz//3I1E9Z+OMOOCg+sqCcMfP1Ue7H1paC8
+EXcjiU9hiYM3oC2gaNTYMP9kESCbyMcMZigxFovJQSCxH3xCKucmKHSd96sQSOT2+0r1mkyMFN6i
+qevs4sYdwY/pAroi7jPVEF91bUfdLYIdA2y1eIvrFOkFniM/5Iq/B42aCfg0XYyI19u9ucI8KT1J
+DXEIbEUUtiJH8wu874V24aF7TRfzu0rMBIkC2jdKc6/jyrjYd7AVrTa/Zit2eR0iWaaJj4Qnalbv
+vpwsRN0b87Qy9fbiGZrsStpBZidB0Up6SRg/AzqF+KQHP9ccbIFrPtSCQsVvXFsIbLL7V08zCQkt
+E1gQJFZRBwbbsB+AIcxdBjFTDK3aBQpdZqFKvUFNVnb9RErKvlUZnIA3HqebAZ7Bu6vSa/HfDc9z
+UDC+/weMUdFTB8Ga4SJQH0iPNAdlYXpJV+phWBiVUD5xoOpkTLG/VskvgjL/svyT9vmXW9dU3Y1c
+Gb6+2lVG0anZq++Qcn6VjDeYkWjWoUQoApQuXCMqyuR/M3YKzF+/nbwyb1+fKpSeSmFqhaJiWhij
+eisQ7V2Brr785mXtcfoZyYBkEXj1tmULqi4+QpfrolAV0+JVfwIDAQABo4ICIjCCAh4wPgYDVR0g
+BDcwNTAPBg0rBgEEAYGtIYIsAQEEMBAGDisGAQQBga0hgiwBAQQFMBAGDisGAQQBga0hgiwCAQQF
+MAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMB0GA1UdDgQW
+BBS+e1xFsmx74F+HXILQlDlwD0XlRjAfBgNVHSMEGDAWgBRrOpiL+fJTidrgrbIyHgkf6Ko7dDCB
+jQYDVR0fBIGFMIGCMD+gPaA7hjlodHRwOi8vY2RwMS5wY2EuZGZuLmRlL2Rmbi1jYS1nbG9iYWwt
+ZzIvcHViL2NybC9jYWNybC5jcmwwP6A9oDuGOWh0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZuLWNh
+LWdsb2JhbC1nMi9wdWIvY3JsL2NhY3JsLmNybDCB2wYIKwYBBQUHAQEEgc4wgcswMwYIKwYBBQUH
+MAGGJ2h0dHA6Ly9vY3NwLnBjYS5kZm4uZGUvT0NTUC1TZXJ2ZXIvT0NTUDBJBggrBgEFBQcwAoY9
+aHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFsLWcyL3B1Yi9jYWNlcnQvY2FjZXJ0
+LmNydDBJBggrBgEFBQcwAoY9aHR0cDovL2NkcDIucGNhLmRmbi5kZS9kZm4tY2EtZ2xvYmFsLWcy
+L3B1Yi9jYWNlcnQvY2FjZXJ0LmNydDANBgkqhkiG9w0BAQsFAAOCAQEALHNrhqP5XdILVXJu3jxA
+ATfJT8cStEw3JGa8AfD737AP3YBDKhCFScutDTm4rO2EYmYkUEcv09SufVD4cd791WPoXVCU0TmL
+TonmDhJvcFKCS3C+uqM7WOB1FO0SbC0/IW1SGde8K2guhYQHl57HD9BpCBL4HrrkFyqziSYjNk4K
+4x46EL5gBkgBsiUgIpqef3Kb01bRtXVsRwhKKp/FtN73Rjbakm6Z2KGbeVi3M3dkUpJNOC63Zkuc
+zF+MSTPU3Nx/r8bxvbmbUf0bEeDW5sLaEjNKTXfX41SxrRL6MaEIlBufp8U04UtUOM/XLYMvOxHI
+dcZuVhSVsrfaiGm3VQ==
+</ds:X509Certificate>
+        <ds:X509Certificate>
+MIIFrDCCBJSgAwIBAgIHG2O60B4sPTANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UEBhMCREUxRTBD
+BgNVBAoTPFZlcmVpbiB6dXIgRm9lcmRlcnVuZyBlaW5lcyBEZXV0c2NoZW4gRm9yc2NodW5nc25l
+dHplcyBlLiBWLjEQMA4GA1UECxMHREZOLVBLSTEtMCsGA1UEAxMkREZOLVZlcmVpbiBDZXJ0aWZp
+Y2F0aW9uIEF1dGhvcml0eSAyMB4XDTE2MDUyNDExMzg0MFoXDTMxMDIyMjIzNTk1OVowgY0xCzAJ
+BgNVBAYTAkRFMUUwQwYDVQQKDDxWZXJlaW4genVyIEZvZXJkZXJ1bmcgZWluZXMgRGV1dHNjaGVu
+IEZvcnNjaHVuZ3NuZXR6ZXMgZS4gVi4xEDAOBgNVBAsMB0RGTi1QS0kxJTAjBgNVBAMMHERGTi1W
+ZXJlaW4gR2xvYmFsIElzc3VpbmcgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCd
+O3kcR94fhsvGadcQnjnX2aIw23IcBX8pX0to8a0Z1kzhaxuxC3+hq+B7i4vYLc5uiDoQ7lflHn8E
+UTbrunBtY6C+li5A4dGDTGY9HGRp5ZukrXKuaDlRh3nMF9OuL11jcUs5eutCp5eQaQW/kP+kQHC9
+A+e/nhiIH5+ZiE0OR41IX2WZENLZKkntwbktHZ8SyxXTP38eVC86rpNXp354ytVK4hrl7UF9U1/I
+syr1ijCs7RcFJD+2oAsH/U0amgNSoDac3iSHZeTn+seWcyQUzdDoG2ieGFmudn730Qp4PIdLsDfP
+U8o6OBDzy0dtjGQ9PFpFSrrKgHy48+enTEzNAgMBAAGjggIFMIICATASBgNVHRMBAf8ECDAGAQH/
+AgEBMA4GA1UdDwEB/wQEAwIBBjApBgNVHSAEIjAgMA0GCysGAQQBga0hgiweMA8GDSsGAQQBga0h
+giwBAQQwHQYDVR0OBBYEFGs6mIv58lOJ2uCtsjIeCR/oqjt0MB8GA1UdIwQYMBaAFJPj2DIm2tXx
+SqWRSuDqS+KiDM/hMIGPBgNVHR8EgYcwgYQwQKA+oDyGOmh0dHA6Ly9jZHAxLnBjYS5kZm4uZGUv
+Z2xvYmFsLXJvb3QtZzItY2EvcHViL2NybC9jYWNybC5jcmwwQKA+oDyGOmh0dHA6Ly9jZHAyLnBj
+YS5kZm4uZGUvZ2xvYmFsLXJvb3QtZzItY2EvcHViL2NybC9jYWNybC5jcmwwgd0GCCsGAQUFBwEB
+BIHQMIHNMDMGCCsGAQUFBzABhidodHRwOi8vb2NzcC5wY2EuZGZuLmRlL09DU1AtU2VydmVyL09D
+U1AwSgYIKwYBBQUHMAKGPmh0dHA6Ly9jZHAxLnBjYS5kZm4uZGUvZ2xvYmFsLXJvb3QtZzItY2Ev
+cHViL2NhY2VydC9jYWNlcnQuY3J0MEoGCCsGAQUFBzAChj5odHRwOi8vY2RwMi5wY2EuZGZuLmRl
+L2dsb2JhbC1yb290LWcyLWNhL3B1Yi9jYWNlcnQvY2FjZXJ0LmNydDANBgkqhkiG9w0BAQsFAAOC
+AQEAgXhFpE6kfw5V8Amxaj54zGg1qRzzlZ4/8/jfazh3iSyNta0+x/KUzaAGrrrMqLGtMwi2JIZi
+Nkx4blDw1W5gjU9SMUOXRnXwYuRuZlHBQjFnUOVJ5zkey5/KhkjeCBT/FUsrZpugOJ8Azv2n69F/
+Vy3ITF/cEBGXPpYEAlyEqCk5bJT8EJIGe57u2Ea0G7UDDDjZ3LCpP3EGC7IDBzPCjUhjJSU8entX
+bveKBTjvuKCuL/TbB9VbhBjBqbhLzmyQGoLkuT36d/HSHzMCv1PndvncJiVBby+mG/qkE5D6fH7Z
+C2Bd7L/KQaBh+xFJKdioLXUV2EoY6hbvVTQiGhONBg==
+</ds:X509Certificate>
+        <ds:X509Certificate>
+MIIFEjCCA/qgAwIBAgIJAOML1fivJdmBMA0GCSqGSIb3DQEBCwUAMIGCMQswCQYDVQQGEwJERTEr
+MCkGA1UECgwiVC1TeXN0ZW1zIEVudGVycHJpc2UgU2VydmljZXMgR21iSDEfMB0GA1UECwwWVC1T
+eXN0ZW1zIFRydXN0IENlbnRlcjElMCMGA1UEAwwcVC1UZWxlU2VjIEdsb2JhbFJvb3QgQ2xhc3Mg
+MjAeFw0xNjAyMjIxMzM4MjJaFw0zMTAyMjIyMzU5NTlaMIGVMQswCQYDVQQGEwJERTFFMEMGA1UE
+ChM8VmVyZWluIHp1ciBGb2VyZGVydW5nIGVpbmVzIERldXRzY2hlbiBGb3JzY2h1bmdzbmV0emVz
+IGUuIFYuMRAwDgYDVQQLEwdERk4tUEtJMS0wKwYDVQQDEyRERk4tVmVyZWluIENlcnRpZmljYXRp
+b24gQXV0aG9yaXR5IDIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLYNf/ZqFBzdL6
+h5eKc6uZTepnOVqhYIBHFU6MlbLlz87TV0uNzvhWbBVVdgfqRv3IA0VjPnDUq1SAsSOcvjcoqQn/
+BV0YD8SYmTezIPZmeBeHwp0OzEoy5xadrg6NKXkHACBU3BVfSpbXeLY008F0tZ3pv8B3Teq9WQfg
+Wi9sPKUA3DW9ZQ2PfzJt8lpqS2IB7qw4NFlFNkkF2njKam1bwIFrEczSPKiL+HEayjvigN0WtGd6
+izbqTpEpPbNRXK2oDL6dNOPRDReDdcQ5HrCUCxLx1WmOJfS4PSu/wI7DHjulv1UQqyquF5deM87I
+8/QJB+MChjFGawHFEAwRx1npAgMBAAGjggF0MIIBcDAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE
+FJPj2DIm2tXxSqWRSuDqS+KiDM/hMB8GA1UdIwQYMBaAFL9ZIDYAeaCgImuM1fJh0rgsy4JKMBIG
+A1UdEwEB/wQIMAYBAf8CAQIwMwYDVR0gBCwwKjAPBg0rBgEEAYGtIYIsAQEEMA0GCysGAQQBga0h
+giweMAgGBmeBDAECAjBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vcGtpMDMzNi50ZWxlc2VjLmRl
+L3JsL1RlbGVTZWNfR2xvYmFsUm9vdF9DbGFzc18yLmNybDCBhgYIKwYBBQUHAQEEejB4MCwGCCsG
+AQUFBzABhiBodHRwOi8vb2NzcDAzMzYudGVsZXNlYy5kZS9vY3NwcjBIBggrBgEFBQcwAoY8aHR0
+cDovL3BraTAzMzYudGVsZXNlYy5kZS9jcnQvVGVsZVNlY19HbG9iYWxSb290X0NsYXNzXzIuY2Vy
+MA0GCSqGSIb3DQEBCwUAA4IBAQCHC/8+AptlyFYt1juamItxT9q6Kaoh+UYu9bKkD64ROHk4sw50
+unZdnugYgpZi20wz6N35at8yvSxMR2BVf+d0a7Qsg9h5a7a3TVALZge17bOXrerufzDmmf0i4nJN
+PoRb7vnPmep/11I5LqyYAER+aTu/de7QCzsazeX3DyJsR4T2pUeg/dAaNH2t0j13s+70103/w+jl
+kk9ZPpBHEEqwhVjAb3/4ru0IQp4e1N8ULk2PvJ6Uw+ft9hj4PEnnJqinNtgs3iLNi4LY2XjiVRKj
+O4dEthEL1QxSr2mMDwbf0KJTi1eYe8/9ByT0/L3D/UqSApcb8re2z2WKGqK1chk5
+</ds:X509Certificate>
+        <ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBgjELMAkGA1UEBhMCREUxKzApBgNVBAoM
+IlQtU3lzdGVtcyBFbnRlcnByaXNlIFNlcnZpY2VzIEdtYkgxHzAdBgNVBAsMFlQtU3lzdGVtcyBU
+cnVzdCBDZW50ZXIxJTAjBgNVBAMMHFQtVGVsZVNlYyBHbG9iYWxSb290IENsYXNzIDIwHhcNMDgx
+MDAxMTA0MDE0WhcNMzMxMDAxMjM1OTU5WjCBgjELMAkGA1UEBhMCREUxKzApBgNVBAoMIlQtU3lz
+dGVtcyBFbnRlcnByaXNlIFNlcnZpY2VzIEdtYkgxHzAdBgNVBAsMFlQtU3lzdGVtcyBUcnVzdCBD
+ZW50ZXIxJTAjBgNVBAMMHFQtVGVsZVNlYyBHbG9iYWxSb290IENsYXNzIDIwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCqX9obX+hzkeXaXPSi5kfl82hVYAUdAqSzm1nzHoqvNK38DcLZ
+SBnuaY/JIPwhqgcZ7bBcrGXHX+0CfHt8LRvWurmAwhiCFoT6ZrAIxlQjgeTNuUk/9k9uN0goOA/F
+vudocP05l03Sx5iRUKrERLMjfTlH6VJi1hKTXrcxlkIF+3anHqP1wvzpesVsqXFP6st4vGCvx970
+2cu+fjOlbpSD8DT6IavqjnKgP6TeMFvvhk1qlVtDRKgQFRzlAVfFmPHmBiiRqiDFt1MmUUOyCxGV
+WOHAD3bZwI18gfNycJ5v/hqO2V81xrJvNHy+SE/iWjnX2J14np+GPgNeGYtEotXHAgMBAAGjQjBA
+MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBS/WSA2AHmgoCJrjNXy
+YdK4LMuCSjANBgkqhkiG9w0BAQsFAAOCAQEAMQOiYQsfdOhyNsZt+U2e+iKo4YFWz827n+qrkRk4
+r6p8FU3ztqONpfSO9kSpp+ghla0+AGIWiPACuvxhI+YzmzB6azZie60EI4RYZeLbK4rnJVM3YlNf
+vNoBYimipidx5joifsFvHZVwIEoHNN/q/xWA5brXethbdXwFeilHfkCoMRN3zUA7tFFHei4R40cR
+3p1m0IvVVGb6g1XqfMIpiRvpb7PO4gWEyS8+eIVibslfwXhjdFjASBgMmTnrpMwatXlajRWc2BQN
+9noHV8cigwUtPJslJj0Ys6lDfMjIq2SPDqO/nBudMNva0Bkuqjzx+zOAduTNrRlPBSeOE6Fuwg==
+</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <md:Extensions>
+    <mdrpi:PublicationInfo creationInstant="2020-10-07T14:00:24Z" publisher="https://www.aai.dfn.de">
+      <mdrpi:UsagePolicy xml:lang="en">http://www.edugain.org/policy/metadata-tou_1_0.txt</mdrpi:UsagePolicy>
+    </mdrpi:PublicationInfo>
+  </md:Extensions>
+  <md:EntityDescriptor entityID="https://sp-fzk8s.connectedpdf.com/shibboleth">
+    <md:Extensions>
+      <alg:DigestMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+      <alg:DigestMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+      <alg:DigestMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <alg:DigestMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+      <alg:DigestMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <alg:SigningMethod xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="https://www.cstcloud.net/" registrationInstant="2020-10-01T02:25:04Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">http://cstcloud.net/documentation.html</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://www.cstcloud.net/</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:SPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <init:RequestInitiator Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/Login"/>
+        <idpdisc:DiscoveryResponse Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/Login" index="1"/>
+        <init:RequestInitiator Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/cst"/>
+        <idpdisc:DiscoveryResponse Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/cst" index="2"/>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Foxit Software</mdui:DisplayName>
+          <mdui:DisplayName xml:lang="zh">福昕高级PDF编辑器网页版</mdui:DisplayName>
+          <mdui:Description xml:lang="en">https://www.foxitsoftware.cn/</mdui:Description>
+          <mdui:Logo height="80" width="80">https://aai.cstcloud.net/service/static/20200915161833.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor>
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDHTCCAgWgAwIBAgIJAKuAW3q5W1NcMA0GCSqGSIb3DQEBCwUAMCUxIzAhBgNV BAMMGnNwLWRvY2tlci5jb25uZWN0ZWRwZGYuY29tMB4XDTIwMDkwNDA1NTc0NFoX DTMwMDkwMjA1NTc0NFowJTEjMCEGA1UEAwwac3AtZG9ja2VyLmNvbm5lY3RlZHBk Zi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDT/DM5WUXSX9so 8HZ/ZXymepZghxAirjci3RZ37HI2U1LkYXXELIGYWZN8grh/HPMBEuew2swVxuk8 I2vRwYdfVNgBzA6+9QRPZB7nD3NphdDX/qBbVUmkki3fIr+WpLxRBvIOQFVbLDN9 yoSr5mwlHrLcDh2ZMNyBu6EPs/v6h7jLYgRbk1HckieWS2tJPD6F2VTbof7csYIA GccDNl6Jq9bwOhVF24aP0OZ2IeDNpgzrt+IFzKkii64JbgbaGTDryuGITRdEy/GV e85OEo9sQ0Njigi0KrzeJOfF1nYNwlhv1ZRmYdm7Ba0CSl8geSBMJB2cFxooED2e 5QLPh8dhAgMBAAGjUDBOMB0GA1UdDgQWBBT+ZWVVAiUypIK/zQJ4iQeNs2NUOTAf BgNVHSMEGDAWgBT+ZWVVAiUypIK/zQJ4iQeNs2NUOTAMBgNVHRMEBTADAQH/MA0G CSqGSIb3DQEBCwUAA4IBAQBDLVUj6NhevDkZyuj/6kinSBTFb3XmwmYv4xSjkmZW DPOyYuoxIbVhkLPbJGCRh41mr1V4XmcXY9duUFcKwi8X3ri65yHOSCcVMPGVR5ps Sak/qmEerOlEVeUIwdVPM4iQDmzjWEky1ZHyYOc1dDBfxI/5VsWWAxgBmE4jdA7q PFlUitdlo/YkVpbhmH9QCn3ewRgY2LMK08MA06DOVPOyqSnBl2brwxoDTvADrJZU t6Es1vDRPcQGIX4KeCiIvzWQ+IEkJ/7f4RTiJvFrDVj6xHs2DMNLO+0l59wjeZps 6wLdxvtlfPATD6JTna/ybLUwQcc/bPEiUJzKmMf1z8aT</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/Artifact/SOAP" index="1"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SLO/SOAP"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SLO/Redirect"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SLO/POST"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SLO/Artifact"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SAML2/POST" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SAML2/Artifact" index="3"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://sp-fzk8s.connectedpdf.com/Shibboleth.sso/SAML2/ECP" index="4"/>
+    </md:SPSSODescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">Foxit Software</md:OrganizationName>
+      <md:OrganizationName xml:lang="zh">福昕高级PDF编辑器网页版</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Foxit Software</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="zh">福昕高级PDF编辑器网页版</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://pan.cstcloud.cn/unode/stor/downloadByUrl?downloadId=1.eyJhZ2UiOjg2NDAwLCJidWNrZXQiOiJkZWZhdWx0IiwiY3RpbWUiOjE2MDE0NTUyMzAsImtleSI6Inp2OTNlUmlWNWhINWtCUFJMUkhkcDV4RndQd0FBQm5VIiwibGVuIjo2NjEyLCJuYW1lIjoiTWV0YWRhdGFfazhzKDEpIiwicGFydE9uZSI6eyJiaWQiOjEsImNpZCI6MSwiY3JjMzIiOjM1MDAyMzU5NjIsImZuIjoiYTJZWlpWbGFSamstMC02NjEyIiwic2l6ZSI6NjYxMn0sInBvcyI6MCwic2l6ZSI6NjYxMn0.2837474326</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="zh">https://pan.cstcloud.cn/unode/stor/downloadByUrl?downloadId=1.eyJhZ2UiOjg2NDAwLCJidWNrZXQiOiJkZWZhdWx0IiwiY3RpbWUiOjE2MDE0NTUyMzAsImtleSI6Inp2OTNlUmlWNWhINWtCUFJMUkhkcDV4RndQd0FBQm5VIiwibGVuIjo2NjEyLCJuYW1lIjoiTWV0YWRhdGFfazhzKDEpIiwicGFydE9uZSI6eyJiaWQiOjEsImNpZCI6MSwiY3JjMzIiOjM1MDAyMzU5NjIsImZuIjoiYTJZWlpWbGFSamstMC02NjEyIiwic2l6ZSI6NjYxMn0sInBvcyI6MCwic2l6ZSI6NjYxMn0.2837474326</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="support">
+      <md:GivenName>lin rong han</md:GivenName>
+      <md:EmailAddress>mailto:ronghan_lin@foxitsoftware.cn</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:GivenName>lin rong han</md:GivenName>
+      <md:EmailAddress>mailto:ronghan_lin@foxitsoftware.cn</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://adfs.ibrict.edu.om/adfs/services/trust">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="http://www.omren.om" registrationInstant="2019-10-26T01:54:00Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://www.omren.om/wp-content/uploads/2019/10/OMREN_Federation_policies_1.3.pdf</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+          <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://refeds.org/sirtfi</saml:AttributeValue>
+          <saml:AttributeValue>https://noec.release-check.edugain.org/shibboleth</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://www.omren.om</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol urn:mace:shibboleth:1.0">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">adfs.ibrict.edu.om</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Ibri College of Technology</mdui:DisplayName>
+          <mdui:Description xml:lang="en">bri College of Technology is one of seven regional Colleges of Technology under the Ministry of Manpower in Oman, along with Musanna, Nizwa, Ibra, Salalah, and Shinas in addition to the Higher College of Technology in Muscat.</mdui:Description>
+          <mdui:InformationURL xml:lang="en">https://www.ibrict.edu.om/about-ibrict</mdui:InformationURL>
+          <mdui:PrivacyStatementURL xml:lang="en">https://www.omren.om/wp-content/uploads/2019/10/OMREN_Federation_policies_1.3.pdf</mdui:PrivacyStatementURL>
+          <mdui:Logo height="400" width="400" xml:lang="en">https://pbs.twimg.com/profile_images/1090477749628792832/HSEay3QH_400x400.jpg</mdui:Logo>
+        </mdui:UIInfo>
+        <mdui:DiscoHints>
+          <mdui:DomainHint>adfs.ibrict.edu.om</mdui:DomainHint>
+        </mdui:DiscoHints>
+      </md:Extensions>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIC6jCCAdKgAwIBAgIQGgVsJ3rXdoREpHhJHv+lXTANBgkqhkiG9w0BAQsFADAx
+MS8wLQYDVQQDEyZBREZTIEVuY3J5cHRpb24gLSBJQ1REQzIuaWJyaWN0LmVkdS5v
+bTAeFw0xOTEwMjAwOTE1MDJaFw0yMDEwMTkwOTE1MDJaMDExLzAtBgNVBAMTJkFE
+RlMgRW5jcnlwdGlvbiAtIElDVERDMi5pYnJpY3QuZWR1Lm9tMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw4iwIwsu+aP48dcINwof0kbBfjYxmwpCwoJd
+IaRHvG/SefjPGiJ6oOeoE0BWa1WbK5/zVUYzOSr5Tzh4dVseIyaPz0lbl7YI+mV3
+pNSEdZUisotfFye0qZ0GT/gLofehVjUnapOODaPmQeCK+XPOgXnedA664VFTxebb
+SOvCBawd1OTYcGZ5YIMnYUzt4PVo4tI7wdSwmfE45kdtdH9lzoNah8ado99IJQ+k
+2dKJn7Z0Zr3nsbZ5fH+BAHgpWxeWlGew2aZ8EcthiOqpbGYiqu68ljLm+tOCtbVj
+7hJpZyy3Egu9mRJyArtVXXTiEha3SLwPjQZfrJKpfVDrlAM1KwIDAQABMA0GCSqG
+SIb3DQEBCwUAA4IBAQC9NOVom4uS5MIqFszU4AZEcknNBjX1gyq8lLwRpDjP+zV8
+zTwBTX9TXIHCysF+mk2APky3LkB94BNpixSt5nbAeHcqKu5MukId9cp11vYh0yzn
+vV0jJ7MpmayW7EuEOvKmjBnTVvsFqswgatsC52b3u2hLbzUsykjauhLZGBh/GkVm
+bhkyGNoE+k9o/knVi7R8mksNDbqAjHvtnikbAMdxtVByU87ytOY6azjEtCI4sSfm
+7MHR0+PfA8cmMRZzOTHx6YB580WnbS6yQ2DLmVQLAfQjFuQBHaBi5+SxF1rz6TJT
+Vz7se7E6Bv4YK2mbVfpj/oFO0/SG2poIW5zqyJNR
+</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIC5DCCAcygAwIBAgIQa+l3TBBVGpNPxF1WFkeqejANBgkqhkiG9w0BAQsFADAu
+MSwwKgYDVQQDEyNBREZTIFNpZ25pbmcgLSBJQ1REQzIuaWJyaWN0LmVkdS5vbTAe
+Fw0xOTEwMjAwOTE1MDFaFw0yMDEwMTkwOTE1MDFaMC4xLDAqBgNVBAMTI0FERlMg
+U2lnbmluZyAtIElDVERDMi5pYnJpY3QuZWR1Lm9tMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEArhPfsVDNJs9VsLK/xcFstzUc8tXbCqQO2STsQG+r7wUW
+htJMXN2toscqRRCPbTVInZGCJWkOzpn8rIBiDpB+wks9cZn1Fy0m7gRoG38qdN3j
+ivgz9xWczI3pxfK1UgTFFr8MBLWLHYZG298ivf5gDGgeebEPbgE7HA4jK482slcv
+oh/hZMZ2CvGVk4c3syo1fUrp51mrZOUsyiUc1Do0Nu3mDtnNTeTWfdKgtE0Irb84
+TRb/9pdZrYpI7FrpAP5Fe4lPBVDBZx8DfWpPovcHT14hjoNFIZG5psCJJxm3P1WA
+FHiEL/cM0OJyXHZwrzuL/j+K8gZJmzUocjMyiLEk6wIDAQABMA0GCSqGSIb3DQEB
+CwUAA4IBAQCbbjqJkbtbrI9sbca0pcY42hRtG9cqcMfflQK7/KQTAIUS0j1RtSIp
+ZbbAAjKFSBQ2soaor8jya9myIKzjs3ebKEBSwElmqXNwMwjcufwbdjeg9O4DfnRK
+pSnl+EtxwUvNFEYZJtAqTlZxsnE4oMR1xFwWzvM/EQvVzg3xdXX4TT8F/5J+6hC2
+hmMUfrTnY8lR9OnvGkoUAuxE49pKSL5tyyPyAhxjXZMOu5PjmfZYAfFwvb+9Rfqt
+jevSgIEubvJTU5/fiU8Oi1oFppgTmAGgcFCTDsY6s/V05RZ4LzzqfWfCKpI5/Gii
+QpLqgGVwa4GvHEJsTdeLhUXP3op5bUYY
+</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adfs.ibrict.edu.om/adfs/ls/?wa=wsignout1.0"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adfs.ibrict.edu.om/adfs/ls/?wa=wsignout1.0"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adfs.ibrict.edu.om/adfs/ls/"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adfs.ibrict.edu.om/adfs/ls/"/>
+      <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://adfs.ibrict.edu.om/adfs/ls/"/>
+    </md:IDPSSODescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">Ibri College of Technology</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Ibri College of Technology</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://www.ibrict.edu.om/about-ibrict</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:GivenName>Mohammed</md:GivenName>
+      <md:SurName>Al Shukri</md:SurName>
+      <md:EmailAddress>mailto:Mohammed.AlShukri@ibrict.edu.om</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
+      <md:GivenName>Mohammed</md:GivenName>
+      <md:SurName>AlShukri</md:SurName>
+      <md:EmailAddress>mailto:Mohammed.AlShukri@ibrict.edu.om</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://idp.utmn.ru/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="http://arbicon.ru" registrationInstant="2017-10-15T12:14:26Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">http://fedurus.ru/doc/FEDURUS Identity Federation MRPS v0.0.2_en.pdf</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://arbicon.ru</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">utmn.ru</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Tyumen State University</mdui:DisplayName>
+          <mdui:DisplayName xml:lang="ru">Тюменский государственный университет</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Tyumen State University</mdui:Description>
+          <mdui:Description xml:lang="ru">Тюменский государственный университет</mdui:Description>
+          <mdui:Logo height="16" width="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKUSURBVDhPVVJLaxNRFJ6VIASqCKW2zWsmTSYx1DbvV9OHJM2kSZukFUXQhVRwI1gquBDsTlBERBG0IkJRUVe6EBEUXJQSa31UqNDa+KL+AHWRXT/POclAvPBx7z3nfN/57sxRbMEsbKFRQhYO2p2BLNQg7QR7fwZqKCd3MyZxquF65ioOupgJKWKRiAFbIINg9hDafQk4wiRiCvFOMDmKEJtBLWzAFR2DGs1jt55E9eMqTp+/gD16HC7ORfKCVhGFDxzUONkka7Tv6klgcXkFvNLjR9FNTl2xMco1alUS1IirqGSXiRon4wW4GHTeaQ0Imdfvv39gcYYkp8WbtbFGQ0U6UpCTPYkioQCLGsOlG3eEvL29LXv52Ck4gobkpQmBuQp3M8nueBF7/WlcvD4vJCabAjcXHqGzd1hqGo2K4kRxxwrwEPTEOH0YA5XjM0Lg1Sowf/8xuvcfgIcE9Pg4CTVcKBIgsjcxAT01AWsoj77hspB4mQLTs3OwRw14qcaXpFricGOFD6zoTZWgp8vwEqyBHE4QoXW16wPo8I/QTOShD5TgSTKv2HRAqhxkAd9gBf6hSbS5k6jX60KenjkHazCH2s8tnJm7DAf9Rg9x3ORE8bKDJplV3aky/CMH5SkvXi/h4ZNnaPOkceTkWRG7dveBjL64IBGFu7NtJ/3Tq7fvIZKj8e3NoKNvlEb5MCw0UF0BAzu6wvix9QtqJEdNSsQxBbj7QBl2mqwrtxaky+f1TWzUvmHtS43271jf/Iq1jZrkXi6+QWd/VpoylwQqcjFdPH3+CssfPqH6bhXVlf+x9PY9pqZn6ReS68GmgDc9KQ72DVXgG5qi943R+xuwhwuwEfjMU2ilp7iT9KGpzicCJfwD2VQX39sMLAQAAAAASUVORK5CYII=</mdui:Logo>
+          <mdui:Logo height="60" width="60">data:image/png;base64,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</mdui:Logo>
+          <mdui:InformationURL xml:lang="en">http://www.utmn.ru</mdui:InformationURL>
+          <mdui:InformationURL xml:lang="ru">http://www.utmn.ru</mdui:InformationURL>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIDGDCCAgCgAwIBAgIVAPnHGfQbrt7jbC1uVRnZmXs9cvBLMA0GCSqGSIb3DQEB
+CwUAMBYxFDASBgNVBAMMC2lkcC51dG1uLnJ1MB4XDTIwMDUyOTEwMTgwOFoXDTQw
+MDUyOTEwMTgwOFowFjEUMBIGA1UEAwwLaWRwLnV0bW4ucnUwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCrDpPvjhe6FVJu/M8VeZiODbGjDzY8lofjYwRz
+xcQGgaDh++wszsYkJ8cM7KN2Hrk4ow2aLv1N+BGVi9Ltqqn3Cl9hC9cQjcTssckC
+qj2MSOMnRwdROh+HvRFt4JSH1NsMQTWBkHJbYcE37B3AcdK3WccbbCag5DlcWao2
+kPzPg+gKktYLDm67ivurW/DkAE/WlrY1v9iRlT2j2MkBZJkHWbXBgPke5TAKL9u2
+QnTFTdVHWka4SQkVf6NSc47l+5p1TZzXw//T7IHBzlE+BwEByMW6ECKcD4XeK777
+s3CJI5ZzREanxcMOB+NxiWaofwE5aVGtYoson313OVBJBGgZAgMBAAGjXTBbMB0G
+A1UdDgQWBBS5tmRNN2hTToPOm4pnGE6zHMbH6zA6BgNVHREEMzAxggtpZHAudXRt
+bi5ydYYiaHR0cHM6Ly9pZHAudXRtbi5ydS9pZHAvc2hpYmJvbGV0aDANBgkqhkiG
+9w0BAQsFAAOCAQEAjLtYHkylH2fsuNYtdk+6JbGYMOt9vqUNmU1q8AK1kRiouzvz
+mOn24RBRD4WwG+FYEZq3c4mI1YkL6iS8HK8yAaZJkA1kzzccE541bQjuEaZ4k9uJ
+OsFQKTinEuVPxDnwxkDUtJ2eZhnWEOGnDUUSWB/9rcp/4NN8ALLgfu4R0x5nN9b5
+YK7kLaEFW1dkok9S/edQbWgUCoZv8yT99cfWl3FL8NRIcMTABeaMejd/yx26On6Y
+anB7EWSj0pLoHdo6QMEY4cLSNgd7Fl0iuJ9xX3/9apl4D7A/9kzMeaMM0DZW7agx
+2DvVbtmPxJ1t8LWvaGGajujqNV0938Viq59aaA==
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.utmn.ru/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.utmn.ru/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.utmn.ru/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.utmn.ru/idp/profile/SAML2/POST/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.utmn.ru/idp/profile/SAML2/SOAP/SLO"/>
+      <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.utmn.ru/idp/profile/Shibboleth/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.utmn.ru/idp/profile/SAML2/POST/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.utmn.ru/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.utmn.ru/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:AttributeAuthorityDescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">utmn.ru</shibmd:Scope>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIDGDCCAgCgAwIBAgIVAPnHGfQbrt7jbC1uVRnZmXs9cvBLMA0GCSqGSIb3DQEB
+CwUAMBYxFDASBgNVBAMMC2lkcC51dG1uLnJ1MB4XDTIwMDUyOTEwMTgwOFoXDTQw
+MDUyOTEwMTgwOFowFjEUMBIGA1UEAwwLaWRwLnV0bW4ucnUwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCrDpPvjhe6FVJu/M8VeZiODbGjDzY8lofjYwRz
+xcQGgaDh++wszsYkJ8cM7KN2Hrk4ow2aLv1N+BGVi9Ltqqn3Cl9hC9cQjcTssckC
+qj2MSOMnRwdROh+HvRFt4JSH1NsMQTWBkHJbYcE37B3AcdK3WccbbCag5DlcWao2
+kPzPg+gKktYLDm67ivurW/DkAE/WlrY1v9iRlT2j2MkBZJkHWbXBgPke5TAKL9u2
+QnTFTdVHWka4SQkVf6NSc47l+5p1TZzXw//T7IHBzlE+BwEByMW6ECKcD4XeK777
+s3CJI5ZzREanxcMOB+NxiWaofwE5aVGtYoson313OVBJBGgZAgMBAAGjXTBbMB0G
+A1UdDgQWBBS5tmRNN2hTToPOm4pnGE6zHMbH6zA6BgNVHREEMzAxggtpZHAudXRt
+bi5ydYYiaHR0cHM6Ly9pZHAudXRtbi5ydS9pZHAvc2hpYmJvbGV0aDANBgkqhkiG
+9w0BAQsFAAOCAQEAjLtYHkylH2fsuNYtdk+6JbGYMOt9vqUNmU1q8AK1kRiouzvz
+mOn24RBRD4WwG+FYEZq3c4mI1YkL6iS8HK8yAaZJkA1kzzccE541bQjuEaZ4k9uJ
+OsFQKTinEuVPxDnwxkDUtJ2eZhnWEOGnDUUSWB/9rcp/4NN8ALLgfu4R0x5nN9b5
+YK7kLaEFW1dkok9S/edQbWgUCoZv8yT99cfWl3FL8NRIcMTABeaMejd/yx26On6Y
+anB7EWSj0pLoHdo6QMEY4cLSNgd7Fl0iuJ9xX3/9apl4D7A/9kzMeaMM0DZW7agx
+2DvVbtmPxJ1t8LWvaGGajujqNV0938Viq59aaA==
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.utmn.ru/idp/profile/SAML1/SOAP/AttributeQuery"/>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.utmn.ru/idp/profile/SAML2/SOAP/AttributeQuery"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
+    </md:AttributeAuthorityDescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">utmn.ru</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Tyumen State University</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="ru">Тюменский государственный университет</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.utmn.ru/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="support">
+      <md:GivenName>Виктор</md:GivenName>
+      <md:SurName>Легостаев</md:SurName>
+      <md:EmailAddress>mailto:v.n.legostaev@utmn.ru</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://www.idp.gecvl.cteguj.in/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="http://inflibnet.ac.in" registrationInstant="2019-04-01T11:40:33Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://parichay.inflibnet.ac.in/documents/rules_of_membership.pdf</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://inflibnet.ac.in</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">gecvl.cteguj.in</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Government Engineering College, Valsad</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Government Engineering College Valsad is one of the 8 newly established Government Engineering Colleges in all over Gujarat in year 2004.</mdui:Description>
+          <mdui:Logo height="80" width="80">https://parichay.inflibnet.ac.in/logo/gecvl.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDRzCCAi+gAwIBAgIUGQI3uaEANiM9sku57KAkQmW/slwwDQYJKoZIhvcNAQEL
+BQAwIjEgMB4GA1UEAwwXd3d3LmlkcC5nZWN2bC5jdGVndWouaW4wHhcNMTkwMzI3
+MDgyMzQzWhcNMzkwMzI3MDgyMzQzWjAiMSAwHgYDVQQDDBd3d3cuaWRwLmdlY3Zs
+LmN0ZWd1ai5pbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAII5Z8FL
+RqAnFVCJBThGaD75n+q8mlwy8npR7rhX/C+sKrf8lv08MZEIrCcAQPcs8rtR/rwj
+poxufVUBl56a+jGXfDviNaYMd5I0lFfb71LdyJbqyh2IHabtpEJdWg4OTQXDn4SZ
++HsXW4rJ9QE4zcIp128Ular7X7bmVwsp9l8K5iCj7cialzMKqMTLPPSc+vurt05Z
+8mswQ6vQemZbPXEfYqPeI8tazKZ/puIFHLMeqxEYfkX2P0ONZldWLzR2CyrxC1nX
+Tja0cm9nTVaOYB4nxSZJPWA0p6DVzOtElXVA7PBtKVcOHTgsog2k7VSzDnAUkpP/
+D173oYo58vWcAEkCAwEAAaN1MHMwHQYDVR0OBBYEFJH8WpB/sWDx8qmvvo6BhqKj
+cvAZMFIGA1UdEQRLMEmCF3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluhi5odHRwczov
+L3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3
+DQEBCwUAA4IBAQBVNceQpFeLNDgWGfgvoVnYWKn9H5/ea2jPYoXabYxJWuaeRzXA
+FzxUjSaQfL2Lj2aO34T2OZmGRiVuYOdSupe4kPNfjjnYA4q7cCNvLnhERzyhBAZb
+nlwB0pLVnxdPY9bOavINRmDqn+CgQSjeHUOVKMOQZfPFQ2wFvFPRMVlIj2qwsVpn
+3N/cMvsTQGLJFg5zy65RGQRVPrf+ZaYxiKGe32KPt85Kzax9Ev6tkrPSy0cYt6VF
+N3HfDIAS9+HcYaJkq/Po/CKYKBy+P39/qguJavb8uIdqoCdLWnGpeCQuK8PZpp8m
+FziROIRDyxkBSsJP7Hr1BUev/OD63kpleITq</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDSDCCAjCgAwIBAgIVALvdQYBDHhmQWHryrpcwauiM9N0tMA0GCSqGSIb3DQEB
+CwUAMCIxIDAeBgNVBAMMF3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluMB4XDTE5MDMy
+NzA4MjM0M1oXDTM5MDMyNzA4MjM0M1owIjEgMB4GA1UEAwwXd3d3LmlkcC5nZWN2
+bC5jdGVndWouaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCl7rMB
+TjMIlrJtxRnApwm3fxFrq+I4LDjwd3FotuGOdeDDUyzeXZmrcLvrxdhpK/p+v6Ts
+4l4WPQGuk9s6oKIWjuAGv5SD7uEX9zsJhiYVY8qJs+LEpP5JrMWjdiPT2hbBgkGl
++QYnuRc+krJ9u64kddy2f9X9UBAxnKu+/z+7It4C34xfGreVIOZsZJET8ERGEPpR
+IdcuFxq/dcX+hY8XR6I7CszxNO1PecPsAzvBov9vRFlO3PctIRJ8S/HNHbahZoMB
+c+P9qEVbmVm4NQo9vDef400K/sLfM9HOdQjWAj79hZxkzwPQHfT78ztiknThFXPZ
+JJKv1RD/C5grzl+dAgMBAAGjdTBzMB0GA1UdDgQWBBT193SxVp+RN6Bhz630wZJA
+xACI/jBSBgNVHREESzBJghd3d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pboYuaHR0cHM6
+Ly93d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pbi9pZHAvc2hpYmJvbGV0aDANBgkqhkiG
+9w0BAQsFAAOCAQEAIB7AGzcrjDQeXQ86o5GPMnc2If7ETpVgKF+3Qk9t8HPrhfno
+y1iJiDC9NSykSDfYxuCAG48jwVc0fbIqnJYqsr2Agiuyhn/HW6yMGw8Oxq6rJ9QX
+oyeKig3ABNjEiVU3QjPa4PYr/t9mh9iLwrgxoUlZ5VBymT3YwJqEHIyMP7KYCJuR
+mCKyBr5cUT3zKHeHlwDIR3MXxA50FEc/LIy5T/Mgz5Qj+mzXWO/ByQjGbPqg9FYx
+X+Qmzk2IfT4QruKDceu1xbilfccYsn4DXDFZ+N/GGEY821r5jwuFpVCgfMTxPIf+
+qq1U4fFXj65ZWtg3bgsDCko/KyX7N3n7MpVwUw==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDSDCCAjCgAwIBAgIVAP7pOgXzhq7HCq+v4G1Zkzjx1R+wMA0GCSqGSIb3DQEB
+CwUAMCIxIDAeBgNVBAMMF3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluMB4XDTE5MDMy
+NzA4MjM0M1oXDTM5MDMyNzA4MjM0M1owIjEgMB4GA1UEAwwXd3d3LmlkcC5nZWN2
+bC5jdGVndWouaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEr3Ny
+7+iYspKioMiLn1GpUk2IZGIO68SOUc4hj5u2pKwOGvP8zmTg5aNF30ymAZXnLu5I
+0geB0U3eZdTkrljT38JRl8+pYQPFwWwgB3q//pIKxbsF7wEYmwYu9XgIoshm18ia
+kqUXie1seHU90sZ1z0eVIZggEKthxELoVmpygrKixDpKkFAXg0/et1trtgqdhlAx
+kdASUE/ctdpbJhQMxgkaLWKAQcMCcQ4w9rJ471aB4S90e7iedK4PXv22PR3/FkXZ
+jonhefcV54jEwaYgNa0RVWTrjKfDDrG5KxOcbrtX+cYOhLmTMXGzSxCXOFklr8gE
+6KfVrcfwXjzXT/RVAgMBAAGjdTBzMB0GA1UdDgQWBBT346dowjH2rB31hybqXue3
+gWzqxzBSBgNVHREESzBJghd3d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pboYuaHR0cHM6
+Ly93d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pbi9pZHAvc2hpYmJvbGV0aDANBgkqhkiG
+9w0BAQsFAAOCAQEAiNot6qCKfWNXtOrlQ3gCPCAoXHuhtCQDG7tBb8zLScwF/HlC
+5C4VEacSd2AdX7339IXjms9bYDmtkKJH8UbQXdpMzciFfUwyWG9k48HDyoI6TDDB
+jrmVvRwL1R/UETqT/BHy2e0wM5sgDM72iwm0+93Nu8eSG3EWnQ3/sf4FVmMHOpGG
+cKw8rCNgaqpX4Nv8NvQSyf9pzEVvyCPmRuZLfUbN0Yu/3TJ64JDlOliRXWZyXYce
+/dFHY8q/SmNgWi+02MnAfU/BMj9q9OPstxguTgeKMy3+22xyl/riPFF1kQmEuT5E
+mG/dq7bq6ba5lDpjVlDTWjZ+ABhuWJ4ywavI5w==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://www.idp.gecvl.cteguj.in:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.idp.gecvl.cteguj.in:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.idp.gecvl.cteguj.in/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.idp.gecvl.cteguj.in/idp/profile/SAML2/POST/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.idp.gecvl.cteguj.in:8443/idp/profile/SAML2/SOAP/SLO"/>
+      <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://www.idp.gecvl.cteguj.in/idp/profile/Shibboleth/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.idp.gecvl.cteguj.in/idp/profile/SAML2/POST/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://www.idp.gecvl.cteguj.in/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.idp.gecvl.cteguj.in/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:AttributeAuthorityDescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">gecvl.cteguj.in</shibmd:Scope>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDRzCCAi+gAwIBAgIUGQI3uaEANiM9sku57KAkQmW/slwwDQYJKoZIhvcNAQEL
+BQAwIjEgMB4GA1UEAwwXd3d3LmlkcC5nZWN2bC5jdGVndWouaW4wHhcNMTkwMzI3
+MDgyMzQzWhcNMzkwMzI3MDgyMzQzWjAiMSAwHgYDVQQDDBd3d3cuaWRwLmdlY3Zs
+LmN0ZWd1ai5pbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAII5Z8FL
+RqAnFVCJBThGaD75n+q8mlwy8npR7rhX/C+sKrf8lv08MZEIrCcAQPcs8rtR/rwj
+poxufVUBl56a+jGXfDviNaYMd5I0lFfb71LdyJbqyh2IHabtpEJdWg4OTQXDn4SZ
++HsXW4rJ9QE4zcIp128Ular7X7bmVwsp9l8K5iCj7cialzMKqMTLPPSc+vurt05Z
+8mswQ6vQemZbPXEfYqPeI8tazKZ/puIFHLMeqxEYfkX2P0ONZldWLzR2CyrxC1nX
+Tja0cm9nTVaOYB4nxSZJPWA0p6DVzOtElXVA7PBtKVcOHTgsog2k7VSzDnAUkpP/
+D173oYo58vWcAEkCAwEAAaN1MHMwHQYDVR0OBBYEFJH8WpB/sWDx8qmvvo6BhqKj
+cvAZMFIGA1UdEQRLMEmCF3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluhi5odHRwczov
+L3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3
+DQEBCwUAA4IBAQBVNceQpFeLNDgWGfgvoVnYWKn9H5/ea2jPYoXabYxJWuaeRzXA
+FzxUjSaQfL2Lj2aO34T2OZmGRiVuYOdSupe4kPNfjjnYA4q7cCNvLnhERzyhBAZb
+nlwB0pLVnxdPY9bOavINRmDqn+CgQSjeHUOVKMOQZfPFQ2wFvFPRMVlIj2qwsVpn
+3N/cMvsTQGLJFg5zy65RGQRVPrf+ZaYxiKGe32KPt85Kzax9Ev6tkrPSy0cYt6VF
+N3HfDIAS9+HcYaJkq/Po/CKYKBy+P39/qguJavb8uIdqoCdLWnGpeCQuK8PZpp8m
+FziROIRDyxkBSsJP7Hr1BUev/OD63kpleITq</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDSDCCAjCgAwIBAgIVALvdQYBDHhmQWHryrpcwauiM9N0tMA0GCSqGSIb3DQEB
+CwUAMCIxIDAeBgNVBAMMF3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluMB4XDTE5MDMy
+NzA4MjM0M1oXDTM5MDMyNzA4MjM0M1owIjEgMB4GA1UEAwwXd3d3LmlkcC5nZWN2
+bC5jdGVndWouaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCl7rMB
+TjMIlrJtxRnApwm3fxFrq+I4LDjwd3FotuGOdeDDUyzeXZmrcLvrxdhpK/p+v6Ts
+4l4WPQGuk9s6oKIWjuAGv5SD7uEX9zsJhiYVY8qJs+LEpP5JrMWjdiPT2hbBgkGl
++QYnuRc+krJ9u64kddy2f9X9UBAxnKu+/z+7It4C34xfGreVIOZsZJET8ERGEPpR
+IdcuFxq/dcX+hY8XR6I7CszxNO1PecPsAzvBov9vRFlO3PctIRJ8S/HNHbahZoMB
+c+P9qEVbmVm4NQo9vDef400K/sLfM9HOdQjWAj79hZxkzwPQHfT78ztiknThFXPZ
+JJKv1RD/C5grzl+dAgMBAAGjdTBzMB0GA1UdDgQWBBT193SxVp+RN6Bhz630wZJA
+xACI/jBSBgNVHREESzBJghd3d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pboYuaHR0cHM6
+Ly93d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pbi9pZHAvc2hpYmJvbGV0aDANBgkqhkiG
+9w0BAQsFAAOCAQEAIB7AGzcrjDQeXQ86o5GPMnc2If7ETpVgKF+3Qk9t8HPrhfno
+y1iJiDC9NSykSDfYxuCAG48jwVc0fbIqnJYqsr2Agiuyhn/HW6yMGw8Oxq6rJ9QX
+oyeKig3ABNjEiVU3QjPa4PYr/t9mh9iLwrgxoUlZ5VBymT3YwJqEHIyMP7KYCJuR
+mCKyBr5cUT3zKHeHlwDIR3MXxA50FEc/LIy5T/Mgz5Qj+mzXWO/ByQjGbPqg9FYx
+X+Qmzk2IfT4QruKDceu1xbilfccYsn4DXDFZ+N/GGEY821r5jwuFpVCgfMTxPIf+
+qq1U4fFXj65ZWtg3bgsDCko/KyX7N3n7MpVwUw==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDSDCCAjCgAwIBAgIVAP7pOgXzhq7HCq+v4G1Zkzjx1R+wMA0GCSqGSIb3DQEB
+CwUAMCIxIDAeBgNVBAMMF3d3dy5pZHAuZ2VjdmwuY3RlZ3VqLmluMB4XDTE5MDMy
+NzA4MjM0M1oXDTM5MDMyNzA4MjM0M1owIjEgMB4GA1UEAwwXd3d3LmlkcC5nZWN2
+bC5jdGVndWouaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEr3Ny
+7+iYspKioMiLn1GpUk2IZGIO68SOUc4hj5u2pKwOGvP8zmTg5aNF30ymAZXnLu5I
+0geB0U3eZdTkrljT38JRl8+pYQPFwWwgB3q//pIKxbsF7wEYmwYu9XgIoshm18ia
+kqUXie1seHU90sZ1z0eVIZggEKthxELoVmpygrKixDpKkFAXg0/et1trtgqdhlAx
+kdASUE/ctdpbJhQMxgkaLWKAQcMCcQ4w9rJ471aB4S90e7iedK4PXv22PR3/FkXZ
+jonhefcV54jEwaYgNa0RVWTrjKfDDrG5KxOcbrtX+cYOhLmTMXGzSxCXOFklr8gE
+6KfVrcfwXjzXT/RVAgMBAAGjdTBzMB0GA1UdDgQWBBT346dowjH2rB31hybqXue3
+gWzqxzBSBgNVHREESzBJghd3d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pboYuaHR0cHM6
+Ly93d3cuaWRwLmdlY3ZsLmN0ZWd1ai5pbi9pZHAvc2hpYmJvbGV0aDANBgkqhkiG
+9w0BAQsFAAOCAQEAiNot6qCKfWNXtOrlQ3gCPCAoXHuhtCQDG7tBb8zLScwF/HlC
+5C4VEacSd2AdX7339IXjms9bYDmtkKJH8UbQXdpMzciFfUwyWG9k48HDyoI6TDDB
+jrmVvRwL1R/UETqT/BHy2e0wM5sgDM72iwm0+93Nu8eSG3EWnQ3/sf4FVmMHOpGG
+cKw8rCNgaqpX4Nv8NvQSyf9pzEVvyCPmRuZLfUbN0Yu/3TJ64JDlOliRXWZyXYce
+/dFHY8q/SmNgWi+02MnAfU/BMj9q9OPstxguTgeKMy3+22xyl/riPFF1kQmEuT5E
+mG/dq7bq6ba5lDpjVlDTWjZ+ABhuWJ4ywavI5w==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://www.idp.gecvl.cteguj.in:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.idp.gecvl.cteguj.in:8443/idp/profile/SAML2/SOAP/AttributeQuery"/>
+    </md:AttributeAuthorityDescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">Government Engineering College, Valsad</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Government Engineering College, Valsad</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.gecvl.cteguj.in/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:GivenName>Archana N. Parmar</md:GivenName>
+      <md:EmailAddress>mailto:anpgecv@gmail.com</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://shib2.utep.edu/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="https://incommon.org"/>
+      <mdattr:EntityAttributes>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://id.incommon.org/category/registered-by-incommon</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://incommon.org</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">utep.edu</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">University of Texas at El Paso</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Logon service for The University of Texas at El Paso</mdui:Description>
+          <mdui:PrivacyStatementURL xml:lang="en">https://www.utsystem.edu/privacy</mdui:PrivacyStatementURL>
+          <mdui:Logo height="100" width="75" xml:lang="en">https://idm.utsystem.edu/images/utep-logo.jpg</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIDIzCCAgugAwIBAgIUSDSYO+BRB2O9LZP6/yb56FSVeZAwDQYJKoZIhvcNAQEF
+BQAwGTEXMBUGA1UEAxMOc2hpYjIudXRlcC5lZHUwHhcNMTAwNDI5MjE1NTM1WhcN
+MzAwNDI5MjE1NTM1WjAZMRcwFQYDVQQDEw5zaGliMi51dGVwLmVkdTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhymeRCHrNVP7XIRf3Wkyw3eyONM2cR
+fBrW2d6v5Bdr+4nk7a23BAFi2urLGkQog91KaZ2V6kVkpOn9nxFYzm5xAT3w93De
+SxX2PH5d7WD+7kjREuBx/2OSF0BMTBA6jZxT23WSYLJRkKBN5L8cVDvz/HtvI8dJ
+TcHx+J/K6lSqDwPSjk7ShzOk/MPcIdFUlYY49cvTAReHOUR6pKNuyDU1BRM8AuoF
+7UGEqjLOpz/RitoTkJFwpP/+AM48KIhXC8g/ip/e1uq2yBGnCECI/IQmzxqlrXAz
+qHeNY16jjiVPbIm1BioHFjLpluYCg4dhtxf8Q9rARZ67jF9+vIT7DCUCAwEAAaNj
+MGEwQAYDVR0RBDkwN4IOc2hpYjIudXRlcC5lZHWGJWh0dHBzOi8vc2hpYjIudXRl
+cC5lZHUvaWRwL3NoaWJib2xldGgwHQYDVR0OBBYEFOU2rYgczWF4trebCY091BZN
+QnvYMA0GCSqGSIb3DQEBBQUAA4IBAQCdzB7xc9s2vXRBf+fJKpVeuNFFYqM/UMsm
+v4uhGS85yYXXTwyfekfyKPmp0wf0Tl5EAxrR0SxIG5wQU4v+O5SiVzXoq4/ldjH0
+Q+wjgHazX7Z7KzToHcvo8qyzmUREKfzAdCBbfSEaRA1JrzepwsTn0OVKO7BDDYCj
+rOHQE4QHJpgt05WsxsrN5dslpg3NChR90uxgS1SaYvHk2PfLqLsWY0MX438ScgY5
+bFEBNN3InSuW4rFBadZRNZsFgfejnw5apBHDW5EGlZKYrtAHFQCjliAVhOmA711U
+N0vWPiofU45Ka1EWdfwhlEuVQW2UzUcogTJreXpCBhj61gExq6FZ
+          </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shib2.utep.edu:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shib2.utep.edu:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+      <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shib2.utep.edu/idp/profile/Shibboleth/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib2.utep.edu/idp/profile/SAML2/POST/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib2.utep.edu/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:AttributeAuthorityDescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">utep.edu</shibmd:Scope>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIDIzCCAgugAwIBAgIUSDSYO+BRB2O9LZP6/yb56FSVeZAwDQYJKoZIhvcNAQEF
+BQAwGTEXMBUGA1UEAxMOc2hpYjIudXRlcC5lZHUwHhcNMTAwNDI5MjE1NTM1WhcN
+MzAwNDI5MjE1NTM1WjAZMRcwFQYDVQQDEw5zaGliMi51dGVwLmVkdTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhymeRCHrNVP7XIRf3Wkyw3eyONM2cR
+fBrW2d6v5Bdr+4nk7a23BAFi2urLGkQog91KaZ2V6kVkpOn9nxFYzm5xAT3w93De
+SxX2PH5d7WD+7kjREuBx/2OSF0BMTBA6jZxT23WSYLJRkKBN5L8cVDvz/HtvI8dJ
+TcHx+J/K6lSqDwPSjk7ShzOk/MPcIdFUlYY49cvTAReHOUR6pKNuyDU1BRM8AuoF
+7UGEqjLOpz/RitoTkJFwpP/+AM48KIhXC8g/ip/e1uq2yBGnCECI/IQmzxqlrXAz
+qHeNY16jjiVPbIm1BioHFjLpluYCg4dhtxf8Q9rARZ67jF9+vIT7DCUCAwEAAaNj
+MGEwQAYDVR0RBDkwN4IOc2hpYjIudXRlcC5lZHWGJWh0dHBzOi8vc2hpYjIudXRl
+cC5lZHUvaWRwL3NoaWJib2xldGgwHQYDVR0OBBYEFOU2rYgczWF4trebCY091BZN
+QnvYMA0GCSqGSIb3DQEBBQUAA4IBAQCdzB7xc9s2vXRBf+fJKpVeuNFFYqM/UMsm
+v4uhGS85yYXXTwyfekfyKPmp0wf0Tl5EAxrR0SxIG5wQU4v+O5SiVzXoq4/ldjH0
+Q+wjgHazX7Z7KzToHcvo8qyzmUREKfzAdCBbfSEaRA1JrzepwsTn0OVKO7BDDYCj
+rOHQE4QHJpgt05WsxsrN5dslpg3NChR90uxgS1SaYvHk2PfLqLsWY0MX438ScgY5
+bFEBNN3InSuW4rFBadZRNZsFgfejnw5apBHDW5EGlZKYrtAHFQCjliAVhOmA711U
+N0vWPiofU45Ka1EWdfwhlEuVQW2UzUcogTJreXpCBhj61gExq6FZ
+          </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shib2.utep.edu:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shib2.utep.edu:8443/idp/profile/SAML2/SOAP/AttributeQuery"/>
+    </md:AttributeAuthorityDescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">University of Texas at El Paso</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">University of Texas at El Paso</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.utep.edu/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="administrative">
+      <md:GivenName>Gerard Cochrane</md:GivenName>
+      <md:EmailAddress>mailto:gdcochrane@utep.edu</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:GivenName>Information Security Office</md:GivenName>
+      <md:EmailAddress>mailto:security@utep.edu</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="support">
+      <md:GivenName>Help Desk</md:GivenName>
+      <md:EmailAddress>mailto:helpdesk@utep.edu</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
+      <md:GivenName>ISO</md:GivenName>
+      <md:EmailAddress>mailto:security@utep.edu</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://haka.lpt.fi/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="http://www.csc.fi/haka">
+        <mdrpi:RegistrationPolicy xml:lang="en">http://www.csc.fi/english/institutions/haka/instructions/join/eduGAINRegistrationStatement/</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://www.csc.fi/haka</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">lpt.fi</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Lahti University of Applied Sciences</mdui:DisplayName>
+          <mdui:DisplayName xml:lang="sv">Lahtis yrkeshögskola</mdui:DisplayName>
+          <mdui:DisplayName xml:lang="fi">Lahden ammattikorkeakoulu</mdui:DisplayName>
+          <mdui:Description xml:lang="fi">Lahden ammattikorkeakoulu</mdui:Description>
+          <mdui:Description xml:lang="en">Lahti University of Applied Sciences</mdui:Description>
+          <mdui:Logo height="500" width="500">https://it.lab.fi/IDP/LAMK/LAMK_square_RGB.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor>
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIGqjCCBZKgAwIBAgIQDoFx4FNxVV8OYbv6vcQbjzANBgkqhkiG9w0BAQsFADBk
+MQswCQYDVQQGEwJOTDEWMBQGA1UECBMNTm9vcmQtSG9sbGFuZDESMBAGA1UEBxMJ
+QW1zdGVyZGFtMQ8wDQYDVQQKEwZURVJFTkExGDAWBgNVBAMTD1RFUkVOQSBTU0wg
+Q0EgMzAeFw0xODEyMTMwMDAwMDBaFw0yMDEyMTcxMjAwMDBaMHIxCzAJBgNVBAYT
+AkZJMQ4wDAYDVQQHEwVMYWh0aTElMCMGA1UEChMcTGFoZGVuIGFtbWF0dGlrb3Jr
+ZWFrb3VsdSBPeTEWMBQGA1UECxMNVGlldG9oYWxsaW50bzEUMBIGA1UEAxMLaGFr
+YS5scHQuZmkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQClKNc7Ix+p
+eGGnUI7mr6sLRYmiBzOIN7Qv8tzetjZKlucsK8I/Fp0B3++7cmdXnglABH1YsXDS
+B3SNJQM7l6Cno5og9Qg3Xtyfe6dbFQC9Q8n6Vnv95+vIMd0luPILCRjD5PYh0bbL
+D0mAN+12u4gMtnSoTo/qXFBV4fB91WpnGss0Yf52zL5vFVA5PZRpqzQJTBCR2zOU
+5PpIeG0t8hEic5y2/1cQ/K4BpmxcKLBcUiMq/6xdzo0dFmlzsvke2Ml4DwW89/Si
+G0WZo57WDoiA9JPtKTiux05d8LRRD6UAqo7nav3PpY76Y9Q2nKwe8+TR4oBXgt/j
+JIOUzJpNYw4HAgMBAAGjggNIMIIDRDAfBgNVHSMEGDAWgBRn/YggFCeYxwnSJRm7
+6VERY3VQYjAdBgNVHQ4EFgQU93nTwzSiAYjmSsEr7f2WJu0sVRcwFgYDVR0RBA8w
+DYILaGFrYS5scHQuZmkwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUF
+BwMBBggrBgEFBQcDAjBrBgNVHR8EZDBiMC+gLaArhilodHRwOi8vY3JsMy5kaWdp
+Y2VydC5jb20vVEVSRU5BU1NMQ0EzLmNybDAvoC2gK4YpaHR0cDovL2NybDQuZGln
+aWNlcnQuY29tL1RFUkVOQVNTTENBMy5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1s
+AQEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAI
+BgZngQwBAgIwbgYIKwYBBQUHAQEEYjBgMCQGCCsGAQUFBzABhhhodHRwOi8vb2Nz
+cC5kaWdpY2VydC5jb20wOAYIKwYBBQUHMAKGLGh0dHA6Ly9jYWNlcnRzLmRpZ2lj
+ZXJ0LmNvbS9URVJFTkFTU0xDQTMuY3J0MAwGA1UdEwEB/wQCMAAwggGABgorBgEE
+AdZ5AgQCBIIBcASCAWwBagB3ALvZ37wfinG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaO
+HtGFAAABZ6atXlEAAAQDAEgwRgIhAJMO3rwBIURajmXP3sp5TgX+OBq4da6TGSY4
+ntTBPy4pAiEAgs70AuhKhbQCj0NZJEXJMLyD7+DHZYVoH8wbGWx16K0AdwCHdb/n
+WXz4jEOZX73zbv9WjUdWNv9KtWDBtOr/XqCDDwAAAWemrV8hAAAEAwBIMEYCIQCR
+oDzQ9aeZrMAQJpBD1yNHLAC8iV5YIwDiAIK6DaUtgAIhAL8gZjtCITt30T9au/k8
+MmhWHr5+34zkAadis6/ML1koAHYAb1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2y
+CJo32RMAAAFnpq1fswAABAMARzBFAiARTNxH4IK2bV4TYMn2oV1UmepSo+onkSJo
+uoR7kWAl9QIhANZW3OFmmIXOWD97COtGheHMscTzfZvV3y3+Vhpzrkv/MA0GCSqG
+SIb3DQEBCwUAA4IBAQCYTi19SpKEMy7PcAyR8gnkhD70/uujk8iDwl4Acoknu8uI
+1bp7JhEv0tnvFDd2q/zlLaNebiw2GoD1eKSpCjAZI7jsz/cUqrSJx/k43KBabgjz
+dWJi2QYhBifOHXQrOWYnX8Fk9Y4GRZDLwz6G0Jilbgitqudsl5B1z0hvkGJCBxej
+a+9jcrn5RwRsfv0hxqtKzaTWBlt5MxbidFFj4vZhxixG1uC2IwRUUmcPHOaj4KVW
+3rEzaAUqF1yu9w7IuZdtoL7t2mqxsfiAvXKC3YHD2LPMuAQioZf7ztAhUuK3komc
+uypWVGbIF1xwc/NMn39NOD+yYNNI1IWCVvp8Emh7</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://haka.lpt.fi/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="fi">Lahden ammattikorkeakoulu</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Lahti University of Applied Sciences</md:OrganizationName>
+      <md:OrganizationName xml:lang="sv">Lahtis yrkeshögskola</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="fi">Lahden ammattikorkeakoulu</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Lahti University of Applied Sciences</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="sv">Lahtis yrkeshögskola</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="fi">http://www.lamk.fi</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">http://www.lamk.fi</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="sv">http://www.lamk.fi</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="administrative">
+      <md:GivenName>Sari</md:GivenName>
+      <md:SurName>Laaksonen</md:SurName>
+      <md:EmailAddress>mailto:sari.laaksonen@lamk.fi</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:GivenName>Harri</md:GivenName>
+      <md:SurName>Heinonen</md:SurName>
+      <md:EmailAddress>mailto:harri.heinonen@lamk.fi</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="support">
+      <md:GivenName>Harri</md:GivenName>
+      <md:SurName>Heinonen</md:SurName>
+      <md:EmailAddress>mailto:servicedesk@lamk.fi</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://monitor.eduroam.org/sp/module.php/saml/sp/metadata.php/default-sp">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="http://www.srce.hr" registrationInstant="2012-01-01T08:00:00Z">
+        <mdrpi:RegistrationPolicy xml:lang="hr">http://www.aaiedu.hr/docs/AAI@EduHr-pravilnik-ver1.3.1.pdf</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://www.srce.hr</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:SPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
+      <md:Extensions>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">eduroam supporting services</mdui:DisplayName>
+          <mdui:Description xml:lang="en">eduroam supporting services include: eduroam database, CAT, monitoring, F-Ticks</mdui:Description>
+          <mdui:InformationURL xml:lang="en">https://monitor.eduroam.org</mdui:InformationURL>
+          <mdui:PrivacyStatementURL xml:lang="en">https://monitor.eduroam.org/sp/CoC/privacystatement_en.html</mdui:PrivacyStatementURL>
+          <mdui:Logo height="50" width="138">https://monitor.eduroam.org/sp/resources/eduroamtheme/eduroam_logo.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>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</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>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</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://monitor.eduroam.org/sp/module.php/saml/sp/saml2-logout.php/default-sp"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://monitor.eduroam.org/sp/module.php/saml/sp/saml2-acs.php/default-sp" index="0"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://monitor.eduroam.org/sp/module.php/saml/sp/saml1-acs.php/default-sp" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://monitor.eduroam.org/sp/module.php/saml/sp/saml2-acs.php/default-sp" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://monitor.eduroam.org/sp/module.php/saml/sp/saml1-acs.php/default-sp/artifact" index="3"/>
+      <md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="en">eduroam supporting services</md:ServiceName>
+        <md:ServiceDescription xml:lang="en">eduroam supporting services include: eduroam database, CAT, monitoring, F-Ticks</md:ServiceDescription>
+        <md:RequestedAttribute Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.10" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+        <md:RequestedAttribute Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+        <md:RequestedAttribute Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">eduroam</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">eduroam</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.eduroam.org</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="support">
+      <md:Company>eduroam operations team</md:Company>
+      <md:EmailAddress>mailto:monitor@eduroam.org</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:GivenName>eduroam operations team</md:GivenName>
+      <md:EmailAddress>mailto:monitor@eduroam.org</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://idp.vuw.ac.nz/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" registrationAuthority="https://tuakiri.ac.nz/" registrationInstant="2012-06-26T02:47:57Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://tuakiri.ac.nz/documents/tuakiri-mrps-1.0.pdf</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://refeds.org/sirtfi</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="http://aai.dfn.de/edugain/registrationAuthority" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://tuakiri.ac.nz/</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Victoria University of Wellington</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Victoria University of Wellington</mdui:Description>
+          <mdui:Logo height="60" width="177">https://idp.vuw.ac.nz/idp/images/logo.jpg</mdui:Logo>
+        </mdui:UIInfo>
+        <shibmd:Scope regexp="false">vuw.ac.nz</shibmd:Scope>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=idp.vuw.ac.nz</ds:X509SubjectName>
+            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUB0REtMRNiUiTx8smPcxEGpfxskIwDQYJKoZIhvcNAQEL
+BQAwGDEWMBQGA1UEAwwNaWRwLnZ1dy5hYy5uejAeFw0xODAyMTkwMDM5MTJaFw0z
+ODAyMTkwMDM5MTJaMBgxFjAUBgNVBAMMDWlkcC52dXcuYWMubnowggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCLdcVbS8FxpyiDj5tD6RhkHLDwiZKAZ0rK
+Hfx7EzSDH5jGdiPhQMEBDeKkC80GM8Qe8H9qGTPChz7/md/wjKCPDGIOqZC007/c
+iZPJ3mYrUS3Sid6Om136a6CuFHVXK+xDhE5o8N+8/DZw9b37on6xnkEjRrsFF78a
+CdtL1wUeOv4gwsho82CXSl7HQ1s2gup+wYDhfvhibw4ehvXM51W3Gsp5KFlgC9K6
+NwjZzh9p0ftZJt5iZ/nU6PQ3ToleMZwwYDHNWLm8y1zgTS6qmOSXNVzTZ1v8skWj
+uhPWdGcj0hm7J1Pjxp1VfN8lFdpzTOgL8YNpPf9dn+8au8hwqeAzAgMBAAGjYTBf
+MB0GA1UdDgQWBBTBS4aRNua/P2OMIJ1+oyp7MLRMgzA+BgNVHREENzA1gg1pZHAu
+dnV3LmFjLm56hiRodHRwczovL2lkcC52dXcuYWMubnovaWRwL3NoaWJib2xldGgw
+DQYJKoZIhvcNAQELBQADggEBAFnI31S3obQynxYNmDIJAT5rtNYA3lugXEuBYjdB
+a+7pBOGwwYMX5UBiqp9Rb5hdP96OrdJv4ODou2kpVZnBAhcipZ2xTfxMvh0FGm/F
+PWXS75TIb3MWylG7fZqu/S1WLrtSF+a9y/8qdxEQjaKqX4LLNjPhKnRMtlVrbuyQ
+V2WKTRcAijPzvRRMQDrIm1R8IwLE3jnGrXKfBhSrrcU+u09R3+TDPVP3peIYONnj
+kn0WTvW42R/9jpyS7tzGiNjp1e92QMrTjhGbZXWpgFJ52fAGvOdFzB9CSv/4tsoe
+6el1Y5qt/f1i7q1JwuUj95qkbg+0rMMkT6nTbRcp3q/s+PY=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=idp.vuw.ac.nz</ds:X509SubjectName>
+            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUb5IG/112psLa4kcL03u4FgAAZsIwDQYJKoZIhvcNAQEL
+BQAwGDEWMBQGA1UEAwwNaWRwLnZ1dy5hYy5uejAeFw0xODAyMTkwMDM5MTNaFw0z
+ODAyMTkwMDM5MTNaMBgxFjAUBgNVBAMMDWlkcC52dXcuYWMubnowggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQ5Zs3IfHrANy6o8L7/Rf77lojcW17fB08
+e5uLWjT+rLcaFpS4ym+n3aEGiK+H3YY6eepLKHMnM9SzVxb7KYW5x64k4h40+j2Z
+CsZty/ouDiU8rs5Uq8Da5F01BMUq4uur7nVRv2gPFQ9NT3Z/M+ngtVxYg3N+rvsy
+oN4hpNVwTX3qnOiKlm/6aOh6LgYgTb2es4l5x4qIBXKTYUr/WDqEFIDAS68ykBCb
+NcNBK/TypRDhq543yUPa5kPVm6f+/eM1e4uB5l6bo1IgYiqBxqF6oPuFaTXptmuM
+XrsIb5uHSoaj6x4+7s+nAuNXTXX3fB4JohLtADsPLbzX4stLXLJjAgMBAAGjYTBf
+MB0GA1UdDgQWBBTlq7+HBg45OE2TfEgAWSEV4IbgjDA+BgNVHREENzA1gg1pZHAu
+dnV3LmFjLm56hiRodHRwczovL2lkcC52dXcuYWMubnovaWRwL3NoaWJib2xldGgw
+DQYJKoZIhvcNAQELBQADggEBAAEfsVQXF84DqJpPCO8nq9ITp2wEXe/wG5v2LdN6
+XZLAkmhRv3Ts+LMizv98At6/GZY3j/7rxziaVsITgZ2NBleZaJHxAnlnGMR1pkF/
+2PXy/Qd3Za2BVvUaux0j1S2zgE2Q3Ml9VOkA5RtAuUKQJO4MFJf/EvfobD/pjs3J
+lS8Cf8xfuDIiAycPIwLg6phXmpiWeDOM1Lgb2/jtEaThGP5lZpM80vLACxKXFnz3
+ZuYx3+XTTKigMTblcwQAI+dVdpL0Quk40O4WURB8o8pIRCP92IeYGXBhnPndfz3f
+9gbO2IVWvjUYj/TTXXBIYsq8LYsCdIeAJ5ufCs+jc0NEoGY=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=idp.vuw.ac.nz</ds:X509SubjectName>
+            <ds:X509Certificate>MIIDIDCCAgigAwIBAgIVANQHA4T5/bgPlB7o9Aw+FTon3G1FMA0GCSqGSIb3DQEB
+CwUAMBgxFjAUBgNVBAMMDWlkcC52dXcuYWMubnowHhcNMTgwMjE5MDAzOTEzWhcN
+MzgwMjE5MDAzOTEzWjAYMRYwFAYDVQQDDA1pZHAudnV3LmFjLm56MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg7fqkexyJeMvj9zm8fABnnmzbU3dgljR
+dNeJ2osk5G0mnHe2ATtEJleEZ8tJQEznv4zc7eLmGKSk4WNbN1haLpVbuXpEANDP
+R5+hLEAgVkliXyea4yPR/dY1V6IXQU41yZIV876LJsDC/EeIxuQ68dGC2+Fk0t1G
+PQSNYdghZl77qDZkIyuaBHMB59TQIvloe/citgPH7USPH/+is7+2MrA3v2TNjzJz
+JTcPxCGw/GrnRK12mdVB7/XueULtciqWBuF5F65XjummcrVkMmYDsAyfJs4Rv7ym
+rrYtytxfKCCJXzUt+4da/5MxIP7K61O+Xk5y1F+F6xo3dcKzDc53HQIDAQABo2Ew
+XzAdBgNVHQ4EFgQUv9JJ95fzJk9sLx2g9WKuMLHnOWswPgYDVR0RBDcwNYINaWRw
+LnZ1dy5hYy5ueoYkaHR0cHM6Ly9pZHAudnV3LmFjLm56L2lkcC9zaGliYm9sZXRo
+MA0GCSqGSIb3DQEBCwUAA4IBAQApSRzKOkN3TTyyd/QFXASrFJPvGYv0gd9xnlJG
+SBWVFOInIwECzZb8uveIeYydShUhjkZqcAFLRbfXmuSeK+vJKN3gWAQcu3PvDmp3
+3dGBNyoh8hUECNP0CTYE8WZIHbSNBkOMQcDlsvS5qsrZEPAW4SSFJ8qaq7lY1S/T
+eGZD4tKSB76J/GLPimELS6VhMwKYKgMymMdpmi/TyLgtEAuExD3P35P/XkIJ0yuE
+376Q6vFDtXbS/DO37v0+xScukDVOzsq6Qa2W+ZSXTmAtI+OpdfPfWRkwLJ8ufdtr
+oJZwb1E9LGHCeZwIxPgutefNeu8RVP5zPavWB4Ib0v2SApDQ</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.vuw.ac.nz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" isDefault="true"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.vuw.ac.nz/idp/profile/SAML2/POST/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vuw.ac.nz/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.vuw.ac.nz:8443/idp/profile/SAML2/SOAP/SLO"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.vuw.ac.nz/idp/profile/SAML2/POST/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vuw.ac.nz/idp/profile/SAML2/Redirect/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.vuw.ac.nz/idp/profile/SAML2/SOAP/ECP"/>
+      <saml:Attribute FriendlyName="email" Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="homeOrganizationType" Name="urn:oid:1.3.6.1.4.1.25178.1.2.10" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="homeOrganization" Name="urn:oid:1.3.6.1.4.1.25178.1.2.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="auEduPersonSharedToken" Name="urn:oid:1.3.6.1.4.1.27856.1.2.5" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonAssurance" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.11" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonPrimaryAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.5" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonPrincipalName" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonEntitlement" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.7" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonScopedAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="organizationName" Name="urn:oid:2.5.4.10" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="commonName" Name="urn:oid:2.5.4.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="surname" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    </md:IDPSSODescriptor>
+    <md:AttributeAuthorityDescriptor xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">vuw.ac.nz</shibmd:Scope>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=idp.vuw.ac.nz</ds:X509SubjectName>
+            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUB0REtMRNiUiTx8smPcxEGpfxskIwDQYJKoZIhvcNAQEL
+BQAwGDEWMBQGA1UEAwwNaWRwLnZ1dy5hYy5uejAeFw0xODAyMTkwMDM5MTJaFw0z
+ODAyMTkwMDM5MTJaMBgxFjAUBgNVBAMMDWlkcC52dXcuYWMubnowggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCLdcVbS8FxpyiDj5tD6RhkHLDwiZKAZ0rK
+Hfx7EzSDH5jGdiPhQMEBDeKkC80GM8Qe8H9qGTPChz7/md/wjKCPDGIOqZC007/c
+iZPJ3mYrUS3Sid6Om136a6CuFHVXK+xDhE5o8N+8/DZw9b37on6xnkEjRrsFF78a
+CdtL1wUeOv4gwsho82CXSl7HQ1s2gup+wYDhfvhibw4ehvXM51W3Gsp5KFlgC9K6
+NwjZzh9p0ftZJt5iZ/nU6PQ3ToleMZwwYDHNWLm8y1zgTS6qmOSXNVzTZ1v8skWj
+uhPWdGcj0hm7J1Pjxp1VfN8lFdpzTOgL8YNpPf9dn+8au8hwqeAzAgMBAAGjYTBf
+MB0GA1UdDgQWBBTBS4aRNua/P2OMIJ1+oyp7MLRMgzA+BgNVHREENzA1gg1pZHAu
+dnV3LmFjLm56hiRodHRwczovL2lkcC52dXcuYWMubnovaWRwL3NoaWJib2xldGgw
+DQYJKoZIhvcNAQELBQADggEBAFnI31S3obQynxYNmDIJAT5rtNYA3lugXEuBYjdB
+a+7pBOGwwYMX5UBiqp9Rb5hdP96OrdJv4ODou2kpVZnBAhcipZ2xTfxMvh0FGm/F
+PWXS75TIb3MWylG7fZqu/S1WLrtSF+a9y/8qdxEQjaKqX4LLNjPhKnRMtlVrbuyQ
+V2WKTRcAijPzvRRMQDrIm1R8IwLE3jnGrXKfBhSrrcU+u09R3+TDPVP3peIYONnj
+kn0WTvW42R/9jpyS7tzGiNjp1e92QMrTjhGbZXWpgFJ52fAGvOdFzB9CSv/4tsoe
+6el1Y5qt/f1i7q1JwuUj95qkbg+0rMMkT6nTbRcp3q/s+PY=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=idp.vuw.ac.nz</ds:X509SubjectName>
+            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUb5IG/112psLa4kcL03u4FgAAZsIwDQYJKoZIhvcNAQEL
+BQAwGDEWMBQGA1UEAwwNaWRwLnZ1dy5hYy5uejAeFw0xODAyMTkwMDM5MTNaFw0z
+ODAyMTkwMDM5MTNaMBgxFjAUBgNVBAMMDWlkcC52dXcuYWMubnowggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQ5Zs3IfHrANy6o8L7/Rf77lojcW17fB08
+e5uLWjT+rLcaFpS4ym+n3aEGiK+H3YY6eepLKHMnM9SzVxb7KYW5x64k4h40+j2Z
+CsZty/ouDiU8rs5Uq8Da5F01BMUq4uur7nVRv2gPFQ9NT3Z/M+ngtVxYg3N+rvsy
+oN4hpNVwTX3qnOiKlm/6aOh6LgYgTb2es4l5x4qIBXKTYUr/WDqEFIDAS68ykBCb
+NcNBK/TypRDhq543yUPa5kPVm6f+/eM1e4uB5l6bo1IgYiqBxqF6oPuFaTXptmuM
+XrsIb5uHSoaj6x4+7s+nAuNXTXX3fB4JohLtADsPLbzX4stLXLJjAgMBAAGjYTBf
+MB0GA1UdDgQWBBTlq7+HBg45OE2TfEgAWSEV4IbgjDA+BgNVHREENzA1gg1pZHAu
+dnV3LmFjLm56hiRodHRwczovL2lkcC52dXcuYWMubnovaWRwL3NoaWJib2xldGgw
+DQYJKoZIhvcNAQELBQADggEBAAEfsVQXF84DqJpPCO8nq9ITp2wEXe/wG5v2LdN6
+XZLAkmhRv3Ts+LMizv98At6/GZY3j/7rxziaVsITgZ2NBleZaJHxAnlnGMR1pkF/
+2PXy/Qd3Za2BVvUaux0j1S2zgE2Q3Ml9VOkA5RtAuUKQJO4MFJf/EvfobD/pjs3J
+lS8Cf8xfuDIiAycPIwLg6phXmpiWeDOM1Lgb2/jtEaThGP5lZpM80vLACxKXFnz3
+ZuYx3+XTTKigMTblcwQAI+dVdpL0Quk40O4WURB8o8pIRCP92IeYGXBhnPndfz3f
+9gbO2IVWvjUYj/TTXXBIYsq8LYsCdIeAJ5ufCs+jc0NEoGY=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=idp.vuw.ac.nz</ds:X509SubjectName>
+            <ds:X509Certificate>MIIDIDCCAgigAwIBAgIVANQHA4T5/bgPlB7o9Aw+FTon3G1FMA0GCSqGSIb3DQEB
+CwUAMBgxFjAUBgNVBAMMDWlkcC52dXcuYWMubnowHhcNMTgwMjE5MDAzOTEzWhcN
+MzgwMjE5MDAzOTEzWjAYMRYwFAYDVQQDDA1pZHAudnV3LmFjLm56MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg7fqkexyJeMvj9zm8fABnnmzbU3dgljR
+dNeJ2osk5G0mnHe2ATtEJleEZ8tJQEznv4zc7eLmGKSk4WNbN1haLpVbuXpEANDP
+R5+hLEAgVkliXyea4yPR/dY1V6IXQU41yZIV876LJsDC/EeIxuQ68dGC2+Fk0t1G
+PQSNYdghZl77qDZkIyuaBHMB59TQIvloe/citgPH7USPH/+is7+2MrA3v2TNjzJz
+JTcPxCGw/GrnRK12mdVB7/XueULtciqWBuF5F65XjummcrVkMmYDsAyfJs4Rv7ym
+rrYtytxfKCCJXzUt+4da/5MxIP7K61O+Xk5y1F+F6xo3dcKzDc53HQIDAQABo2Ew
+XzAdBgNVHQ4EFgQUv9JJ95fzJk9sLx2g9WKuMLHnOWswPgYDVR0RBDcwNYINaWRw
+LnZ1dy5hYy5ueoYkaHR0cHM6Ly9pZHAudnV3LmFjLm56L2lkcC9zaGliYm9sZXRo
+MA0GCSqGSIb3DQEBCwUAA4IBAQApSRzKOkN3TTyyd/QFXASrFJPvGYv0gd9xnlJG
+SBWVFOInIwECzZb8uveIeYydShUhjkZqcAFLRbfXmuSeK+vJKN3gWAQcu3PvDmp3
+3dGBNyoh8hUECNP0CTYE8WZIHbSNBkOMQcDlsvS5qsrZEPAW4SSFJ8qaq7lY1S/T
+eGZD4tKSB76J/GLPimELS6VhMwKYKgMymMdpmi/TyLgtEAuExD3P35P/XkIJ0yuE
+376Q6vFDtXbS/DO37v0+xScukDVOzsq6Qa2W+ZSXTmAtI+OpdfPfWRkwLJ8ufdtr
+oJZwb1E9LGHCeZwIxPgutefNeu8RVP5zPavWB4Ib0v2SApDQ</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.vuw.ac.nz:8443/idp/profile/SAML2/SOAP/AttributeQuery"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <saml:Attribute FriendlyName="email" Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="homeOrganizationType" Name="urn:oid:1.3.6.1.4.1.25178.1.2.10" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="homeOrganization" Name="urn:oid:1.3.6.1.4.1.25178.1.2.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="auEduPersonSharedToken" Name="urn:oid:1.3.6.1.4.1.27856.1.2.5" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonAssurance" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.11" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonPrimaryAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.5" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonPrincipalName" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonEntitlement" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.7" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="eduPersonScopedAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.9" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="organizationName" Name="urn:oid:2.5.4.10" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="commonName" Name="urn:oid:2.5.4.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="surname" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <saml:Attribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    </md:AttributeAuthorityDescriptor>
+    <md:Organization xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0">
+      <md:OrganizationName xml:lang="en">vuw.ac.nz</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Victoria University of Wellington</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.vuw.ac.nz</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="technical">
+      <md:Company>Victoria University of Wellington</md:Company>
+      <md:GivenName>Anatoly</md:GivenName>
+      <md:SurName>Chernykh</md:SurName>
+      <md:EmailAddress>mailto:anatoly.chernykh@vuw.ac.nz</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:ns4="urn:oasis:names:tc:SAML:metadata:ui" xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
+      <md:Company>Victoria University of Wellington</md:Company>
+      <md:GivenName>ITS</md:GivenName>
+      <md:SurName>security</md:SurName>
+      <md:EmailAddress>mailto:its-security@vuw.ac.nz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+</md:EntitiesDescriptor>
