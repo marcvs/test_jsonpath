@@ -12,7 +12,8 @@ def parseOptions():
     '''Parse the commandline options'''
 
     parser = argparse.ArgumentParser(description='''jsonpath for federation data''')
-    parser.add_argument('--file', '-f', dest='infile'      ,default="small-subset.xml")
+    parser.add_argument('--file', '-f', dest='infile'       ,default="small-subset.xml")
+    parser.add_argument('--search', '-s'                    ,default="http://refeds.org/category/research-and-scholarship")
     parser.add_argument('--verbose',  '-v'  ,default=False, action="store_true"
                                             ,help='Verbosity')
     args = parser.parse_args()
@@ -67,7 +68,7 @@ print ("File read")
 jsondata = xmltodict.parse(xmldata)
 print ("conversion to json done")
 # result = parse('$.*.mdxEntityDescriptor[*].mdxExtensions.mdattrxEntityAttributes[*].samlxAttribute[?samlxAttributeValue[*]="httpxrefeds-rns"]').find(jsondata)
-result = parse('$.*.*[*].*.*[*].*[?*[*]="http://refeds.org/category/research-and-scholarship"]').find(jsondata)
+result = parse('$.*.*[*].*.*[*].*[?*[*]="'+args.search+'"]').find(jsondata)
 print ("parsing done")
 
 
